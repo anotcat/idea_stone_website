@@ -2,3 +2,118 @@ baseURL = 'https://ideastone.pages.dev/'
 languageCode = 'en-us'
 title = 'idea stone ⛰️'
 theme = 'paper'
+paginate = 5
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = [ "posts", "papermod" ]
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "ideastone"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+images = [ "images/papermod-cover.png" ]
+
+  [params.profileMode]
+  enabled = false
+  title = "PaperMod"
+  imageUrl = "#"
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "让我们开始 BUINDING 吧！"
+  Content = """
+
+ **学习一点新东西**：iOS、web、write
+
+ **完成一点小心愿**：独立、自由、热爱
+
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  title = "Github"
+  url = "https://github.com/anotcat"
+
+  [[params.socialIcons]]
+  name = "X"
+  title = "Twitter"
+  url = "https://x.com/anotcat"
+
+  [[params.socialIcons]]
+  name = "KoFi"
+  title = "Buy me a Ko-Fi :)"
+  url = "https://ko-fi.com/anotcat"
+
+  [params.editPost]
+  URL = "https://github.com/anotcat/ideastone/tree/main/content"
+  Text = "suggest"
+  appendFilePath = true
+
+  [params.assets]
+  disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
