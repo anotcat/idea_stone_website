@@ -1,6 +1,11 @@
 +++
 title = '使用 Github + Cloudflare 部署自己的博客'
+weight = 1
+aliases = ["/create-blog-using-github-cloudflare"]
+
+summary = ""
 date = 2024-05-23T17:48:05+08:00
+tags = ["技术"]
 draft = false
 +++
 # 之前的故事

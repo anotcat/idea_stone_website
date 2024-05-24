@@ -44,10 +44,10 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 env = "production"
-description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+description = "building something"
 author = "ideastone"
 defaultTheme = "auto"
-ShowShareButtons = true
+ShowShareButtons = false
 ShowReadingTime = true
 displayFullLangName = true
 ShowPostNavLinks = true
@@ -57,7 +57,7 @@ ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
 ShowToc = true
-images = [ "images/papermod-cover.png" ]
+images = [ "images/" ]
 
   [params.profileMode]
   enabled = false
