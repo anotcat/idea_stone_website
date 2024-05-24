@@ -1,6 +1,6 @@
 baseURL = 'https://ideastone.pages.dev/'
 languageCode = 'en-us'
-title = 'idea stone ⛰️'
+title = 'Ideastone ⛰️'
 theme = 'paper'
 paginate = 5
 enableInlineShortcodes = true
@@ -61,7 +61,7 @@ images = [ "images/" ]
 
   [params.profileMode]
   enabled = false
-  title = "PaperMod"
+  title = "Ideastone ⛰️"
   imageUrl = "#"
   imageTitle = "my image"
 
@@ -74,7 +74,7 @@ images = [ "images/" ]
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "让我们开始 BUINDING 吧！"
+  Title = "BUILDING HAPPY 🎈"
   Content = """
 
  **学习一点新东西**：iOS、web、write
