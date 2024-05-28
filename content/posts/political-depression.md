@@ -4,7 +4,7 @@ weight = 1
 aliases = ["/political-depression"]
 summary = ""
 date = 2024-05-27
-tags = ["感悟"]
+tags = ["翻译"]
 draft = false
 +++
 
