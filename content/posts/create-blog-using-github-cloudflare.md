@@ -26,6 +26,22 @@ draft = false
 ## 四、配置 Cloudflare 
 > [查看 *cloudflare pages 配置指南*。](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#deploy-with-cloudflare-pages)
 
+## 五、自定义一些配置
+1. 网站图标 favicon
+```
 
-## 五、后面的话
-> 为何感觉自己写的都是废话。兄弟，直接看官方指南。
+```
+2. 页脚注释
+```html
+<!--
+
+位置：themes/paper/layouts/partials/footer.html
+
+修改：-->
+
+<span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+</span> 
+```

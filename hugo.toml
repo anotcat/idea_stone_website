@@ -10,7 +10,7 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
-mainsections = [ "posts", "papermod" ]
+mainsections = ["posts", "papermod"]
 
 [minify]
 disableXML = true
@@ -19,10 +19,10 @@ disableXML = true
 languageName = "English"
 weight = 1
 
-  [languages.en.taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
 
 [[languages.en.menu.main]]
 name = "Archive"
@@ -39,72 +39,80 @@ name = "Tags"
 url = "tags/"
 weight = 10
 
+[[languages.en.menu.main]]
+name = "About"
+url = "about/"
+weight = 10
+
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = ["HTML", "RSS", "JSON"]
 
 [params]
 env = "production"
 description = "building something"
 author = "ideastone"
 defaultTheme = "auto"
+# 帖子底部的分享按钮
 ShowShareButtons = false
 ShowReadingTime = true
 displayFullLangName = true
+# 帖子下方的下一篇
 ShowPostNavLinks = true
+# 帖子的面包屑导航
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
 ShowToc = true
-images = [ "images/" ]
+images = ["images/"]
 
-  [params.profileMode]
-  enabled = false
-  title = "Ideastone ⛰️"
-  imageUrl = "#"
-  imageTitle = "my image"
+[params.profileMode]
+enabled = false
+title = "Ideastone ⛰️"
+imageUrl = "#"
+imageTitle = "my image"
 
-    [[params.profileMode.buttons]]
-    name = "Archives"
-    url = "archives"
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "archives"
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
 
-  [params.homeInfoParams]
-  Title = "BUILDING HAPPY 🎈"
-  Content = """
+[params.homeInfoParams]
+Title = "Idea stone happy 🎈"
+Content = """
 
- **学习一点新东西**：iOS、web、write
-
- **完成一点小心愿**：独立、自由、热爱
 
 """
 
-  [[params.socialIcons]]
-  name = "github"
-  title = "Github"
-  url = "https://github.com/anotcat"
+[[params.socialIcons]]
+name = "github"
+title = "Github"
+url = "https://github.com/anotcat"
 
-  [[params.socialIcons]]
-  name = "X"
-  title = "Twitter"
-  url = "https://x.com/anotcat"
+[[params.socialIcons]]
+name = "X"
+title = "Twitter"
+url = "https://x.com/anotcat"
 
-  [[params.socialIcons]]
-  name = "KoFi"
-  title = "Buy me a Ko-Fi :)"
-  url = "https://ko-fi.com/anotcat"
+[[params.socialIcons]]
+name = "KoFi"
+title = "Buy me a Ko-Fi :)"
+url = "https://ko-fi.com/anotcat"
 
-  [params.editPost]
-  URL = "https://github.com/anotcat/ideastone/tree/main/content"
-  Text = "suggest"
-  appendFilePath = true
+# 帖子显示编辑链接
+[params.editPost]
+URL = "https://github.com/anotcat/ideastone/tree/main/content"
+Text = "suggest"
+appendFilePath = true
 
-  [params.assets]
-  disableHLJS = true
+[params.assets]
+disableHLJS = true
+# favicon在assets文件夹下
+favicon = "favicon.svg"
 
 [markup.goldmark.renderer]
 unsafe = true
