@@ -65,7 +65,8 @@ ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
 ShowToc = true
-images = ["images/"]
+# 默认 card-cover 图片
+images = ["images/stones.png"]
 
 [params.profileMode]
 enabled = false
@@ -82,9 +83,9 @@ name = "Tags"
 url = "tags"
 
 [params.homeInfoParams]
-Title = "Idea stone happy 🎈"
+Title = "[on building...](/about)"
 Content = """
-
+[#books](/about/#books) @ [#apple](/about/#apple) @ [#android](/about/#android)
 
 """
 
